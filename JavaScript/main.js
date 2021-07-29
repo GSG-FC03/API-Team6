@@ -1,5 +1,5 @@
 
-let container=document.getElementsByClassName("container")[0]
+let container=document.querySelector(".container")
 
 fetch('https://vpic.nhtsa.dot.gov/api/vehicles/GetWMIsForManufacturer/hon?format=json').then(res=>res.json()).then(data=> (
 
