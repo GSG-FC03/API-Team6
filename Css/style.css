@@ -17,9 +17,9 @@ html {
 img {
   display: block;
   width: auto;
-  max-width: 100%;
+  max-width: 90%;
   height: 13rem;
-  padding-left: 28%;
+  margin: auto;
 }
 .boxTitle {
   text-align: center;
